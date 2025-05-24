@@ -1,0 +1,33 @@
+/* Style for navbar initials */
+.profile-circle {
+  background-color: #007bff;
+  color: #fff;
+  font-weight: bold;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+}
+
+/* Profile image border */
+.profile-image img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Appointment card custom background */
+.appointment-card {
+  background-color: #f9fef9;
+  border: 1px solid #e6f4e6;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .appointment-card {
+    text-align: center;
+  }
+}
